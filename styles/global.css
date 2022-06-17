@@ -1,11 +1,43 @@
 /* font @import */
-
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap);
 :root {
   /* css variables with theme colors,
     names have to start with "--" */
   --color-1: #b9af9e;
 }
 
+
 body {
-    
+background: ##D2D9D9;   
+color: #25352A; 
+font-family: 'Poppins' sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #25352A;
+}
+
+p {
+  /* padding: 10px; */
+  text-align: center;
+}
+
+
+#hero-image {
+  width: 100%;
+}
+
+
+#email-signup-form {
+  background-color: #849373;
+  text-align: center;
+  color: #46423C;
+  padding: 10px;
+}
+
+button {
+  color: #849373;
+  background-color: #25352A;
+  /* padding: 10px; */
 }
